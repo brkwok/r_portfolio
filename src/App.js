@@ -1,14 +1,13 @@
 import React from "react";
-import { HashRouter as Router, Route } from 'react-router-dom';
+import Navbar from "./components/Navbar";
+import Home from "./routes/Home";
+import Error from "./routes/Error";
 
 export default function App() {
-  return(
-    <main>
-      <Router>
-        <Navbar />
-        <Route exact path="/" component={Home} />
-
-      </Router>
+  return (
+    <main className="text-gray-400 bg-gray-900 body-font">
+      <Navbar />
+      <Home />
     </main>
-  )
+  );
 }
