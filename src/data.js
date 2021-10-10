@@ -1,3 +1,5 @@
+import React from "react";
+
 export const projects = [
   {
     title: "React Reserve",
@@ -33,28 +35,59 @@ export const projects = [
   },
 ];
 
-export const testimonials = [
-  {
-    quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "https://randomuser.me/api/portraits/men/1.jpg",
-    name: "Jesse Hicks",
-    company: "Zoozle",
-  },
-  {
-    quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "https://randomuser.me/api/portraits/men/94.jpg",
-    name: "Ruben Alvarez",
-    company: "Dooble.io",
-  },
-];
-
 export const skills = [
-  "JavaScript",
-  "React",
-  "Next.js",
-  "Node",
-  "GraphQL",
-  "Material UI",
+  {
+    name: "React",
+    tag: (
+      <i className="w-10 h-10 flex items-center text-3xl mr-4 devicon-react-original colored" />
+    ),
+  },
+  {
+    name: "JavaScript",
+    tag: (
+      <i className="w-10 h-10 flex items-center text-3xl mr-4 devicon-javascript-plain colored" />
+    ),
+  },
+  {
+    name: "NodeJS",
+    tag: (
+      <i className="w-10 h-10 flex items-center text-3xl mr-4 devicon-nodejs-plain colored" />
+    ),
+  },
+  {
+    name: "Ruby",
+    tag: (
+      <i className="w-10 h-10 flex items-center text-3xl mr-4 devicon-ruby-plain colored" />
+    ),
+  },
+  {
+    name: "Rails",
+    tag: (
+      <i className="w-10 h-10 flex items-center text-3xl mr-4 devicon-rails-plain colored" />
+    ),
+  },
+  {
+    name: "PostgreSQL",
+    tag: (
+      <i className="w-10 h-10 flex items-center text-3xl mr-4 devicon-postgresql-plain colored" />
+    ),
+  },
+  {
+    name: "HTML5",
+    tag: (
+      <i className="w-10 h-10 flex items-center text-3xl mr-4 devicon-html5-plain colored" />
+    ),
+  },
+  {
+    name: "CSS3",
+    tag: (
+      <i className="w-10 h-10 flex items-center text-3xl mr-4 devicon-css3-plain colored" />
+    ),
+  },
+  {
+    name: "Git",
+    tag: (
+      <i className="w-10 h-10 flex items-center text-3xl mr-4 devicon-git-plain colored" />
+    ),
+  },
 ];
