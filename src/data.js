@@ -2,10 +2,18 @@ import React from "react";
 
 export const projects = [
   {
+    title: "Sorting Visualizer",
+    subtitle: "ReactJS and CSS",
+    description:
+      "Sorting algorithm visualizer that shows how the sorting algorithm can be implemented",
+    image: "./sorting_vis.gif",
+    link: "https://brkwok.github.io/sorting_algorithm_visualizer/",
+  },
+  {
     title: "Maze Solver",
     subtitle: "JavaScript and HTML Canvas",
     description:
-      "Maze generator and solver that implements various algorithms.",
+      "Maze generator and solver that implements various algorithms",
     image: "./maze_solver.gif",
     link: "https://brkwok.github.io/Maze-Solver/",
   },
