@@ -17,14 +17,6 @@ export const projects = [
     image: "./maze_solver.gif",
     link: "https://brkwok.github.io/Maze-Solver/",
   },
-  {
-    title: "Localhost",
-    subtitle: "Rails and React",
-    description:
-      "AirBnB clone built using Ruby on Rails and ReactJS",
-    image: "./localhost.png",
-    link: "https://localhost4000.herokuapp.com/#/",
-  },
 ];
 
 export const skills = [
