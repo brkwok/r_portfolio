@@ -37,7 +37,7 @@ export default function Contact() {
             marginHeight={0}
             marginWidth={0}
             style={{ filter: "opacity(0.7)" }}
-            src="https://www.google.com/maps/embed/v1/place?q=6700+192nd+St,+Fresh+Meadows&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d250502.05643434654!2d-74.14872878172075!3d40.70733307664259!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY!5e0!3m2!1sen!2sus!4v1670365120629!5m2!1sen!2sus"
           />
           <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
             <div className="lg:w-1/2 px-6">
@@ -45,9 +45,7 @@ export default function Contact() {
                 ADDRESS
               </h2>
               <p className="mt-1">
-                6700 192nd St.
-                <br />
-                Fresh Meadows, NY 11365
+                New York, NY
               </p>
             </div>
             <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
