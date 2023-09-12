@@ -32,6 +32,20 @@ export const projects = [
 		image: "./maze_solver.gif",
 		link: "https://brkwok.github.io/Maze-Solver/",
 	},
+	{
+		title: "Tetris Canvas",
+		subtitle: "JavaScript and HTML Canvas",
+		description: "Tetris game built using pure JavaScript and Canvas API",
+		image: "./tetris.gif",
+		link: "https://brkwok.github.io/tetris-canvas/",
+	},
+	{
+		title: "Tetris React",
+		subtitle: "React.js",
+		description: "Tetris game built using only React.js",
+		image: "./tetris-react.gif",
+		link: "https://brkwok.github.io/tetris/",
+	},
 ];
 
 export const skills = [
