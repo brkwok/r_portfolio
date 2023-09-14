@@ -9,7 +9,7 @@ export const projects = [
 		image: "./transactions-page-portfolio.gif",
 		link: "https://brkwok.github.io/personal-finance-frontend/",
 	},
-  {
+	{
     title: "Neural Network From Scratch",
     subtitle: "JavaScript, Python and Canvas",
     description:

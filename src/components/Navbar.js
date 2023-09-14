@@ -1,34 +1,43 @@
 import React from "react";
-import { ArrowDownIcon } from "@heroicons/react/solid";
 
 export default function Navbar() {
-  return (
-    <header className="bg-gray-800 md:sticky top-0 z-10">
-      <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-        <div className="title-font font-medium text-white mb-4 md:mb-0">
-          <a href="#home" className="ml-3 text-xl">Brian Kwok</a>
-        </div>
-        <nav className="md:mr-auto md:ml-4 md:py1 md:border-l md:border-gray-700 pl-4	flex flex-wrap items-center text-sm justify-center">
-          <a href="#home" className="mr-5 hover:text-white">
-            Home
-          </a>
-          <a href="#projects" className="mr-5 hover:text-white">
-            Projects
-          </a>
-          <a href="#about" className="mr-5 hover:text-white">
-            About
-          </a>
-          <a href="#skills" className="mr-5 hover:text-white">
-            Skills
-          </a>
-        </nav>
-        <a
-          href="#contact"
-          className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0"
-        >
-          Hire Me <ArrowDownIcon className="w-4 h-4 ml-1" />
-        </a>
-      </div>
-    </header>
-  );
+	return (
+		<header className="bg-gray-800 md:sticky top-0 z-10">
+			<div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+				<div className="title-font font-medium text-white mb-4 md:mb-0">
+					<a href="#home" className="ml-3 text-xl">
+						Brian Kwok
+					</a>
+				</div>
+				<nav className="md:mr-auto md:ml-4 md:py1 md:border-l md:border-gray-700 pl-4	flex flex-wrap items-center text-sm justify-center">
+					<a href="#home" className="mr-5 hover:text-white">
+						Home
+					</a>
+					<a href="#resume" className="mr-5 hover:text-white">
+						Résumé
+					</a>
+					<a href="#projects" className="mr-5 hover:text-white">
+						Projects
+					</a>
+					<a href="#about" className="mr-5 hover:text-white">
+						About
+					</a>
+					<a href="#skills" className="mr-5 hover:text-white">
+						Skills
+					</a>
+					<a href="#contact" className="mr-5 hover:text-white">
+						Hire Me
+					</a>
+				</nav>
+				<div className="space-x-2">
+					<a href="https://github.com/brkwok" target="_blank" rel="noopener noreferrer">
+						<i className="text-2xl devicon-github-original hover:text-white"></i>
+					</a>
+					<a href="https://www.linkedin.com/in/br-kwok/" target="_blank" rel="noopener noreferrer">
+						<i className="text-2xl devicon-linkedin-plain hover:text-white"></i>
+					</a>
+				</div>
+			</div>
+		</header>
+	);
 }
