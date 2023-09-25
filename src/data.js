@@ -62,6 +62,12 @@ export const skills = [
 		),
 	},
 	{
+		name: "Python",
+		tag: (
+			<i class="w-10 h-10 flex items-center text-3xl mr-4 devicon-python-plain colored" />
+		),
+	},
+	{
 		name: "NodeJS",
 		tag: (
 			<i className="w-10 h-10 flex items-center text-3xl mr-4 devicon-nodejs-plain colored" />
@@ -96,6 +102,12 @@ export const skills = [
 		tag: (
 			<i className="w-10 h-10 flex items-center text-3xl mr-4 devicon-amazonwebservices-original colored" />
 		),
+	},
+	{
+		name:"Azure",
+		tag: (
+			<i className="w-10 h-10 flex items-center text-3xl mr-4 devicon-azure-plain colored" />
+		)
 	},
 	{
 		name: "PostgreSQL",
