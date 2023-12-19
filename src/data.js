@@ -2,7 +2,7 @@ import React from "react";
 
 export const projects = [
 	{
-		title: "Personal Finance Mananer",
+		title: "Personal Finance Manager",
 		subtitle: "MERN Stack Application",
 		description:
 			"Personal finance manager to link bank accounts and keep track of transactions and balance",
